@@ -1,0 +1,6 @@
+[Serial]
+baudrate = 115200
+port = /dev/ttyUSB0
+
+[Device]
+cpu_freq = 168000000

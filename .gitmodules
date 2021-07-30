@@ -1,0 +1,3 @@
+[submodule "tpmfirmware/external/wolfssl"]
+	path = tpmfirmware/external/wolfssl
+	url = https://github.com/wolfSSL/wolfssl.git
