@@ -22,7 +22,6 @@ TPM2_PQC_Private(
     TPMS_PQC_OBJECT *msg  = &(in->sig);
     streaming_ctx_t  * ctx  = NULL;
 
-    size_t siglen;
     // retrieve scheme data
     int scheme = privkey->t.buffer[crypto_sign_secretkeybytes()];
     printf("Scheme id is %d\n",scheme);
@@ -32,7 +31,7 @@ TPM2_PQC_Private(
     uint64_t start = hal_get_time();
     uint64_t wstart = write_kcycles;
     // hand controlflow to sphincs code
-    crypto_sign_signature_streaming(ctx,&siglen,msg->data.t.buffer,msg->data.t.size,privkey->t.buffer);
+    crypto_sign_signature_streaming(ctx,msg->data.t.buffer,msg->data.t.size,privkey->t.buffer);
     if (transfer_buffer_fill > 0) {
       write_stream_transfer(NULL, transfer_buffer, transfer_buffer_fill);
       transfer_buffer_fill = 0;

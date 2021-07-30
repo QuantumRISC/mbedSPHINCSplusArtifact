@@ -36,7 +36,7 @@ TPM2_PQC_Public(
     uint64_t start = hal_get_time();
     uint64_t rstart = read_kcycles;
     // hand control over to the sphincs code
-    int ret = crypto_sign_verify_streaming(&ctx, siglen, in->sig.data.t.buffer, in->sig.data.t.size, pqcKey->publicArea.unique.pqc.t.buffer);
+    int ret = crypto_sign_verify_streaming(&ctx, in->sig.data.t.buffer, in->sig.data.t.size, pqcKey->publicArea.unique.pqc.t.buffer);
     uint64_t rstop = read_kcycles;
     uint64_t stop = hal_get_time();
     hal_send_int("crypto-sign-verify-streaming-start-kcycles",start);
