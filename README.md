@@ -1,3 +1,13 @@
+# Streaming SPHINCS+ for Embedded Devices at the Example of TPMs
+
+TODO: add ePrint URL + very short description here
+
+This repository has the following structure:
+
+* [sphincsplus/](sphincsplus) contains the SPHINCS+ reference code with our changes to enable streaming. It can be built stand-alone, i.e., without the TPM firmware. More information is found in the respective README.md of that folder.
+* [tpmfirmware/](tpmfirmware) contains the TPM code that is taken from the [Official TPM 2.0 Reference Implementation (by Microsoft)](https://github.com/microsoft/ms-tpm-20-ref). It includes WolfSSL as a git submodule.
+* [src/](src) contains our code that integrates the streaming SPHINCS+ code into the TPM.
+
 # Raspberry Pi Software setup
 
 We tested this with the May 7th 2021 (5.10) Release of Raspberry Pi OS Lite:
