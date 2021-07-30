@@ -1,0 +1,27 @@
+time:84583
+[+] booting TPM(0)
+Size of components in TPMT_SENSITIVE = zu
+    TPMI_ALG_PUBLIC                 zu
+    TPM2B_DIGEST                    zu
+    TPMU_SENSITIVE_COMPOSITE        zu
+RC is 0
+[+] TPM booted
+0
+keygen-start-kcycles:945354
+keygen-stop-kcycles:1290084
+keygen-total-kcycles:344730
+(49,97)
+Command Response ready:80020000013f00000000800000010000012800bf0020d59577b6d1ca13a915857ac5767e2c075a7b5f458d20e6dbee4c01db74146fd6001062fa60d9f9a3659af10227ba4a96a3e7ea0052ef1ab853ffa7f0482640f4db2b7abc1963c8163b5e4300e5aebb18f60060202cf29832c25f0729ebc1b272c02442ea3cdaf60a693543d657ecc36ee530f2ed6fd6c1eb0fb9b697b47809aa99f0862bfd00794cb36be7fc491e91c0533e90f5ccffd512846132cb19214f1f903970d022330e43242080e9b689f74fc6503e948b4a68f81d3264a7f100410045000b0002007200000000001400318d2f4070a490a35b6199efa783bf735e220aa167b05c69b595105cd7516aa458df4ed79e5fce7b1daff235da179602b8140022000bfecb305eda862ebc9eb386719f2b89a649b8f217ee491b34d0d2d548d9e9151b0000010000
+Received TPM command:8002000000410000015a8000000100000009400000090000000000ffff00200020ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Scheme is sphincs_shake256_192f_simple
+
+sign-start-kcycles:1336808
+sign-stop-kcycles:16661120
+sign-total-kcycles:15324312
+sign-write-kcycles:6409987
+command.parameterSize = 21 maxResponse = 2048
+Received TPM command:8001000000340000017580000001ffff00200020ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+reached PQC_Public
+Scheme id is 20
+Scheme is sphincs_shake256_192f_simple
+verify-total-kcycles:5730092

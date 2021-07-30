@@ -1,0 +1,24 @@
+INFO  2021-06-02T15:24:50.964 1249468 set_init_2:754: startup runtimepath/packpath value: /home/waelde/.config/nvim,/etc/xdg/xdg-i3/nvim,/etc/xdg/nvim,/home/waelde/.local/share/nvim/site,/usr/share/i3/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/var/lib/snapd/desktop/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/var/lib/snapd/desktop/nvim/site/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/usr/share/i3/nvim/site/after,/home/waelde/.local/share/nvim/site/after,/etc/xdg/nvim/after,/etc/xdg/xdg-i3/nvim/after,/home/waelde/.config/nvim/after
+INFO  2021-06-02T15:24:51.020 1249468 on_process_exit:393: exited: pid=1249470 status=0 stoptime=0
+INFO  2021-06-02T15:24:51.021 1249468 channel_create_event:204: new channel 3 (function SpaceVim#util#haspy3lib[5]..provider#python3#Call[9]..remote#host#Require[10]..provider#pythonx#Require[14]..provider#Poll:6) : {"id": 3, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-06-02T15:24:51.069 1249468 on_process_exit:393: exited: pid=1249472 status=0 stoptime=0
+WARN  2021-06-02T15:24:51.090 1249468 server_start:154: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+INFO  2021-06-02T15:24:51.132 1249468 on_process_exit:393: exited: pid=1249473 status=2 stoptime=0
+INFO  2021-06-02T15:24:51.139 1249468 on_process_exit:393: exited: pid=1249474 status=2 stoptime=0
+INFO  2021-06-02T15:24:51.146 1249468 on_process_exit:393: exited: pid=1249475 status=2 stoptime=0
+INFO  2021-06-02T15:24:51.261 1249468 channel_create_event:204: new channel 4 (function coc#rpc#start_server[17]..<SNR>134_start:55) : {"id": 4, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-06-02T15:24:51.335 1249468 on_process_exit:393: exited: pid=1249482 status=0 stoptime=0
+INFO  2021-06-02T15:24:51.337 1249468 on_process_exit:393: exited: pid=1249483 status=0 stoptime=0
+INFO  2021-06-02T15:24:51.358 1249468 on_process_exit:393: exited: pid=1249484 status=0 stoptime=0
+INFO  2021-06-22T15:49:01.887 345740 set_init_2:754: startup runtimepath/packpath value: /home/waelde/.config/nvim,/etc/xdg/xdg-i3/nvim,/etc/xdg/nvim,/home/waelde/.local/share/nvim/site,/usr/share/i3/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/var/lib/snapd/desktop/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/var/lib/snapd/desktop/nvim/site/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/usr/share/i3/nvim/site/after,/home/waelde/.local/share/nvim/site/after,/etc/xdg/nvim/after,/etc/xdg/xdg-i3/nvim/after,/home/waelde/.config/nvim/after
+INFO  2021-06-22T15:49:01.954 345740 on_process_exit:393: exited: pid=345742 status=0 stoptime=0
+INFO  2021-06-22T15:49:01.955 345740 channel_create_event:204: new channel 3 (function SpaceVim#util#haspy3lib[5]..provider#python3#Call[9]..remote#host#Require[10]..provider#pythonx#Require[14]..provider#Poll:6) : {"id": 3, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-06-22T15:49:02.009 345740 on_process_exit:393: exited: pid=345744 status=0 stoptime=0
+WARN  2021-06-22T15:49:02.021 345740 server_start:154: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+INFO  2021-06-22T15:49:02.064 345740 on_process_exit:393: exited: pid=345745 status=2 stoptime=0
+INFO  2021-06-22T15:49:02.071 345740 on_process_exit:393: exited: pid=345746 status=2 stoptime=0
+INFO  2021-06-22T15:49:02.078 345740 on_process_exit:393: exited: pid=345747 status=2 stoptime=0
+INFO  2021-06-22T15:49:02.195 345740 channel_create_event:204: new channel 4 (function coc#rpc#start_server[17]..<SNR>134_start:55) : {"id": 4, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-06-22T15:49:02.252 345740 on_process_exit:393: exited: pid=345754 status=0 stoptime=0
+INFO  2021-06-22T15:49:02.254 345740 on_process_exit:393: exited: pid=345755 status=0 stoptime=0
+INFO  2021-06-22T15:49:02.267 345740 on_process_exit:393: exited: pid=345756 status=0 stoptime=0

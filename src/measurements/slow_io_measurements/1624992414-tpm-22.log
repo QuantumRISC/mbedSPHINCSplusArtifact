@@ -1,0 +1,21 @@
+time:42269
+Size of OBJECT = zu
+    TPM2B_AUTH                      zu
+    TPMU_SENSITIVE_COMPOSITE        zu
+RC is 0
+Primary Handle is 0x80000000
+0
+Received TPM command:80020000003700000191800000000000000940000009000000000000040000000000140045000b00020072000000000016000400000000
+../tpm/CryptPqcMain.c:25 reached
+Scheme id is 00000016
+Scheme is sphincs_shake256_256f_simple
+keygen-stop-kcycles:1873200
+Received TPM command:8002000000410000015a8000000100000009400000090000000000ffff00200020ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Scheme id is 22
+
+sign-stop-kcycles:27016267
+sign-write-kcycles:6729841
+Command Response ready:800200000015000000000000000200000000010000
+verify-start-kcycles:27032698
+verify-read-kcycles:5563744
+command.parameterSize = 82 maxResponse = 2048

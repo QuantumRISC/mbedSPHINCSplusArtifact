@@ -1,0 +1,49 @@
+spi mode: 4
+bits per word: 8
+max speed: 500000 Hz (500 KHz)
+template_size=1004
+sizeof(TPMU_SENSITIVE_CREATE) = 128
+TPM_CreateLoaded cmd bytes:80020000003700000191800000000000000940000009000000000000040000000000140045000b00020072000000000007000400000000
+..
+[+] Command Transmitted
+
+[+] TPM GO set
+
+[+] Data Available
+
+ data 0000010f
+rsp size is 271
+rsp:0000010fb600
+TPM repsonse bytes:80020000010f0000000080000001000000f8009f002050ed98d17519be8881a42da0748445f0d1bcb391cda3714a831fd6a37abaa686001062fa60d9f9a3659af10227ba4a96a3e763e9bf320ee81b796e7bc87e758300ec02faee6f6170bab2782104499cfb0d9a1de5d3ef2d873e60dbbd65462aa729f6f610343250f3c9d68a466032b0db21d608d0d653510e635e383b1f5733caf06b27b10058a6742412bbf2c3c6220b024059bdd72e84b657a7dc8a8f00310045000b00020072000000000007002159310ac183a1da1883dab5318105fb52b05df28f9f2e6082e000065dde92de51070022000b291972dc5c47a97f4fdc475f0de56a4b9ef4448d962114ccf8a7b9dca8f0451e0000010000
+gen_time is 11.640s
+command_code = 346
+PQC_Private cmd bytes:8002000000410000015a8000000100000009400000090000000000ffff00200020ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+...
+[+] Command Transmitted
+
+[+] TPM GO set
+
+[+] Data Available
+
+ data 00000015
+rsp size is 21
+rsp:000000150100
+PQC_Private rsp bytes:800200000015000000000000000200000000010000
+sign_time is 97.545 s
+command_code = 373
+PQC_Public cmd bytes:8001000000340000017580000001ffff00200020ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+stream_fill 7856
+..
+[+] Command Transmitted
+
+[+] TPM GO set
+
+[+] Data Available
+
+ data 00000052
+rsp size is 82
+rsp:000000520000
+verify_time is 11.355s
+PQC_Public rsp bytes:80010000005200000000000bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff4040002000204040404040404040404040404040404040404040404040404040404040404040
+write time was 11.206s
+ read time was 7.581s

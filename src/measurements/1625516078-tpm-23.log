@@ -1,0 +1,48 @@
+time:4
+time:42269
+time:84583
+[+] booting TPM(0)
+Size of OBJECT = zu
+Size of components in TPMT_SENSITIVE = zu
+    TPMI_ALG_PUBLIC                 zu
+    TPM2B_AUTH                      zu
+    TPM2B_DIGEST                    zu
+    TPMU_SENSITIVE_COMPOSITE        zu
+MAX_CONTEXT_SIZE can be reduced to 2424 (2500)
+RC is 0
+Primary Handle is 0x80000000
+[+] TPM booted
+0
+0
+Received TPM command:80020000003700000191800000000000000940000009000000000000040000000000140045000b00020072000000000017000400000000
+../tpm/CryptPqcMain.c:25 reached
+Scheme id is 00000017
+Scheme is sphincs_shake256_256s_simple
+crypto-sign-keypair-start-kcycles:1159257
+crypto-sign-keypair-stop-kcycles:15724115
+crypto-sign-keypair-total-kcycles:14564858
+(65,129)
+command.parameterSize = 367 maxResponse = 2048
+Command Response ready:80020000016f00000000800000010000015800df00201d60894873cb7b6c63f7720fb19e36f5524b8fc7bef65e804565147908d82d70001062fa60d9f9a3659af10227ba4a96a3e74db123df8fd8dba97efb85b96adf3f2eb508a6831f7a701f05299fd858a52285d87964d4538676ef1dbb3979d9d678be391ec7a64757790a664a760e36e68d725c05d3769c693721bdc8ba3dfe02ba86602be4443252a6565ce7cb19279557075d272b379a5001f0ac0714470fb49b191c5be5c4a0c82c6911114d095fb4a6634797be9ce2cbb85dcb211fbad9b0cb3e8e44e38b8c57c579bc078d7fbebd725738f44c28d4c3a094b25dc700510045000b000200720000000000170041220aa167b05c69b5b282532f3cfc5f622e8c9ce931818a986fc0316b1497fe31aa09c5b47c923e7fef424835f1f24dc821cbe2e20e3a9895645fa2d485d69bdc170022000b8989a1364534128dba4a2b00b258938515f8e8237e13cf964a498b17f2c459c50000010000
+Received TPM command:8002000000410000015a8000000100000009400000090000000000ffff00200020ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Scheme id is 23
+Scheme is sphincs_shake256_256s_simple
+
+
+crypto-sign-signature-streaming-start-kcycles:15774793
+crypto-sign-signature-streaming-stop-kcycles:191103494
+crypto-sign-signature-streaming-total-kcycles:175328701
+crypto-sign-signature-streaming-write-kcycles:1979100
+command.parameterSize = 21 maxResponse = 2048
+Command Response ready:800200000015000000000000000200000000010000
+Received TPM command:8001000000340000017580000001ffff00200020ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+reached PQC_Public
+Scheme id is 23
+Scheme is sphincs_shake256_256s_simple
+crypto-sign-verify-streaming-start-kcycles:191120236
+crypto-sign-verify-streaming-kcycles:192958607
+crypto-sign-verify-streaming-total-kcycles:1838371
+crypto-sign-verify-streaming-read-kcycles:1603114
+crypto_sign_verify_streaming retured 0
+command.parameterSize = 82 maxResponse = 2048
+Command Response ready:80010000005200000000000bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff4040002000204040404040404040404040404040404040404040404040404040404040404040

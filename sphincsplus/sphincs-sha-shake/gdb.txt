@@ -1,0 +1,7 @@
+b fors.c:193
+set pagination off
+command 1
+  print (idx_leaf>>(h+1)) + (idx_offset>>h)
+  continue
+end
+r
