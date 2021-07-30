@@ -2,7 +2,7 @@ VPATH += ../../sphincsplus
 
 
 
-SPHINCS_SRC_PATH=sphincs-sha-shake
+SPHINCS_SRC_PATH=sphincs_sha_shake
 SPHINCS_SRC = $(SPHINCS_SRC_PATH)/address.c \
 							$(SPHINCS_SRC_PATH)/fors.c \
 							$(SPHINCS_SRC_PATH)/thash_sha256_robust.c \
