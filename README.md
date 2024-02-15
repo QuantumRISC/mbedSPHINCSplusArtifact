@@ -1,6 +1,8 @@
 # Streaming SPHINCS+ for Embedded Devices at the Example of TPMs
 
-TODO: add ePrint URL + very short description here
+This is the implementation work for the paper Streaming SPHINCS+ for Embedded Devices using the Example of TPMs which can be found at https://eprint.iacr.org/2021/1072.
+We present an implementation of the hash-based post-quantum signature scheme SPHINCS+ that enables heavily memory-restricted devices to sign messages by streaming-out a signature during its computation and to verify messages by streaming-in a signature.
+We demonstrate our implementation in the context of Trusted Platform Modules (TPMs) by proposing a SPHINCS+ integration and a streaming extension for the TPM specification.
 
 This repository has the following structure:
 
